@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <form action="/add" method="POST">
+        <h4 >{{count}}</h4>
+        <input type="number" name="incremento">
+        <button type="submit">click</button>
+    </form>
+    <form action="/destroy_session" method="POST">
+        <button type="submit">reset</button>
+    </form>
+</body>
+</html>
